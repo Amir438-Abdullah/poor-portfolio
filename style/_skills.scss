@@ -1,0 +1,38 @@
+.skills{
+    min-height: 80vh;
+
+    .boxes{
+        
+        min-height: 400px;
+    }
+}
+
+.title_skills{
+    
+    width: 100%;
+    h2{
+        font-weight: bold;
+        color: rgb(65, 65, 65);
+        width: 100px;  
+          
+    }
+}
+
+.b,.e{
+    
+    height: 350px;
+    width: 250px;
+    border-radius: 1rem;
+
+    .skills_text{
+
+        h2{
+            padding-top: 1rem;
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+        p{
+            font-weight: 600;
+        }
+    }
+}

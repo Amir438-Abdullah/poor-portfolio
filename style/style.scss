@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+}
+body{
+    position: relative;
+}
+@import './animate';
+@import './header';
+@import './featured';
+@import './skills';
+@import './projects';
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(58, 56, 56);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(240, 165, 28);
+}
+
+#dark{
+    position: fixed;
+    z-index: 20;
+    right: 12px;
+    bottom: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    outline: none;
+
+    i{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+}

@@ -1,0 +1,40 @@
+footer{
+    min-height: 10vh;
+    background-color: rgb(53, 53, 53);
+}
+
+.social{
+    height: 5vh;
+
+    li{
+        list-style-type: none;
+
+       .fa-facebook-square:hover{
+           color: rgb(71,102,167);
+       }
+       .fa-twitter:hover{
+           color: rgb(0,166,232);
+       }
+       .fa-github:hover{
+           color: rgb(90, 90, 90);
+       }
+        .fa-twitch:hover{
+            color: black;
+        }
+        i{
+            color: white;
+            font-size: 2rem;
+            transition: .5s;
+
+            &:hover{
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+
+.foot{
+    color: rgb(116, 114, 114);
+    text-transform: uppercase;
+    font-size: .7rem;
+}
